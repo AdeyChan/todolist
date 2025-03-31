@@ -2,12 +2,12 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 
 const reminderSection = {
-  marginBottom: "10px"
+  marginBottom: "10px",
 }
 
 const reminderSec = {
   display: "flex",
-  flexDirection: "column"
+  flexDirection: "column",
 }
 
 const flexButtons = {
@@ -15,7 +15,10 @@ const flexButtons = {
   flexDirection: "row",
   alignItems: "center",
   justifyContent: "center",
-  backgroundColor: "rgba(255, 255, 255, 0.1)"
+  backgroundColor: "rgba(255, 255, 255, 0.1)",
+  borderRadius: "10px",
+  width: "30vh",
+  padding: "0"
 }
 
 const Reminder = () => {
@@ -37,16 +40,16 @@ const Reminder = () => {
       {reminders.length === 0 ? (
         <p>No reminders for today.</p>
       ) : (
-        <div style={reminderSection}>
+        <div>
           {reminders.map((reminder) => (
             <div key={reminder.id} style={reminderSection}>
               <div style={flexButtons}>
                 <div style={reminderSec}>
-                  <p>{reminder.title}</p>
-                  <p>{reminder.description}</p>
+                  <p style={{ marginTop: "20px" }}>{reminder.title}</p>
+                  <p style={{ marginBottom: "20px" }}>{reminder.description}</p>
                 </div>
                 <div>
-                  <i class='bx bx-dots-vertical-rounded'></i>
+                  <i class='bx bx-dots-vertical-rounded' style={{fontSize: "30px"}}></i>
                 </div>
                 </div>
             </div>
