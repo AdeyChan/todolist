@@ -14,7 +14,7 @@ const flexButtons = {
   display: "flex",
   flexDirection: "row",
   alignItems: "center",
-  justifyContent: "center",
+  justifyContent: "space-around",
   backgroundColor: "rgba(255, 255, 255, 0.1)",
   borderRadius: "10px",
   width: "20vw",
@@ -23,6 +23,8 @@ const flexButtons = {
 
 const dashButton = {
   display: "flex",
+  flexDirection: "row",
+  justifyContent: "end"
 }
 
 const Reminder = () => {

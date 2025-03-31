@@ -46,7 +46,9 @@ function App() {
   }
 
   const clientRemind = {
-    marginLeft: "20px"
+    marginLeft: "20px",
+    display: "flex",
+    alignItems: "end",
   }
 
   const mainContent = {
