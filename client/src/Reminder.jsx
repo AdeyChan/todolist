@@ -17,8 +17,12 @@ const flexButtons = {
   justifyContent: "center",
   backgroundColor: "rgba(255, 255, 255, 0.1)",
   borderRadius: "10px",
-  width: "30vh",
+  width: "20vw",
   padding: "0"
+}
+
+const dashButton = {
+  display: "flex",
 }
 
 const Reminder = () => {
@@ -48,7 +52,7 @@ const Reminder = () => {
                   <p style={{ marginTop: "20px" }}>{reminder.title}</p>
                   <p style={{ marginBottom: "20px" }}>{reminder.description}</p>
                 </div>
-                <div>
+                <div style={dashButton}>
                   <i class='bx bx-dots-vertical-rounded' style={{fontSize: "30px"}}></i>
                 </div>
                 </div>

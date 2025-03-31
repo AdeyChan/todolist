@@ -19,41 +19,39 @@ function App() {
   }
 
   const sideBar = {
-    width: "200px",
+    width: "12vw",
     height: "80vh",
     borderRadius: "10px",
+    marginRight: "20px",
     marginTop: "10px",
+    marginLeft: "10px",
     display: "inline-block",
     backgroundColor: "rgba(255,255,255, 0.1)",
-    marginRight: "10px"
   }
 
   const clientTasks = {
-    width: "800px",
+    width: "63vw",
     marginTop: "10px",
-    marginLeft: "10px",
     verticalAlign: "top",
     listStyle: "none",
     backgroundColor: "rgba(255, 255, 255, 0.1)",
     top: "143.5px",
     borderRadius: "10px",
-    flex: "1",
   }
 
   const sideMenu = {
     listStyle: "none",
+    padding: "0",
+    textAlign: "center"
   }
 
   const clientRemind = {
-    marginLeft: "20px",
-    width: "200px"
+    marginLeft: "20px"
   }
 
   const mainContent = {
     display: "flex",
     flexDirection: "row",
-    justifyContent: "space-between",
-    rowGap: "5px"
   }
   return (
     <>
