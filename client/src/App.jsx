@@ -40,6 +40,8 @@ function App() {
   }
 
   const sideMenu = {
+    display: "flex",
+    flexDirection: "column",
     listStyle: "none",
     padding: "0",
     textAlign: "center"
