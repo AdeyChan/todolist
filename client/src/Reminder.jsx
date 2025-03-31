@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 
 const reminderSection = {
-  backgroundColor: "rgba(255, 255, 255, 0.1",
+  marginBottom: "10px"
 }
 
 const reminderSec = {
@@ -13,6 +13,9 @@ const reminderSec = {
 const flexButtons = {
   display: "flex",
   flexDirection: "row",
+  alignItems: "center",
+  justifyContent: "center",
+  backgroundColor: "rgba(255, 255, 255, 0.1)"
 }
 
 const Reminder = () => {

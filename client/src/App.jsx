@@ -20,7 +20,7 @@ function App() {
 
   const sideBar = {
     width: "200px",
-    height: "600px",
+    height: "80vh",
     borderRadius: "10px",
     marginTop: "10px",
     display: "inline-block",
