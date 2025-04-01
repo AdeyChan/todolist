@@ -1,0 +1,32 @@
+.mainTaskDiv {
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.taskSection {
+    margin-top: 0;
+    padding:0;
+}
+
+.taskDiv {
+    position: relative;
+    padding-bottom: 10px;
+    width: 63vw;
+    margin-top: 10px;
+    vertical-align: top;
+}
+
+.taskDiv::after {
+    content:"";
+    position: absolute;
+    height: 2px;
+    width: 63vw;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: row;
+}

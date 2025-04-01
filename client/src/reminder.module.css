@@ -1,0 +1,81 @@
+.section {
+    margin-left: 20px;
+}
+
+.editContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.editContainer .tooltip {
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    font-size: 12px;
+    border-radius: 2px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.editContainer:hover .tooltip {
+    transition-delay: 1s;
+    opacity: 1;
+}
+
+.reminderSection {
+    margin-bottom: 10px;
+}
+
+.reminderSec {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 20vw;
+    padding: 0;
+}
+
+.dashButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.dotsTooltip{
+    font-size: 25px;
+}
+
+.reminderTitle {
+    margin-top: 20px;
+    margin-bottom: 7px;
+    font-size: 15px;
+}
+
+.reminderDesc {
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+.clientRemind  {
+    margin-left: 20px;
+    display: flex;
+    align-items: end;
+}
