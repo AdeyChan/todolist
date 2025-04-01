@@ -2,32 +2,6 @@ import React, { useState, useEffect } from "react";
 import styles from "./reminder.module.css";
 import "./App.css";
 
-const reminderSection = {
-  marginBottom: "10px",
-}
-
-const reminderSec = {
-  display: "flex",
-  flexDirection: "column",
-}
-
-const flexButtons = {
-  display: "flex",
-  flexDirection: "row",
-  alignItems: "center",
-  justifyContent: "space-around",
-  backgroundColor: "rgba(255, 255, 255, 0.1)",
-  borderRadius: "10px",
-  width: "20vw",
-  padding: "0"
-}
-
-const dashButton = {
-  display: "flex",
-  flexDirection: "row",
-  justifyContent: "end"
-}
-
 const Reminder = () => {
   const [reminders, setReminders] = useState([]);
 
